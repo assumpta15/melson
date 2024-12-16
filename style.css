@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+  background: #fff;
+  line-height: 1.6;
+ 
+}
+header{
+    margin-bottom: 50px;
+    padding: 10px;
+    
+}
+.about-sec{
+    display: flex; 
+
+}
+/* img{
+    width: 10px;
+    height: 100px;
+} */
+.about{
+ display: block; 
+ margin-top: 20px;
+ justify-content: space-between;
+ /* width: 100%; */
+ padding: 10px 20px;
+ margin: 20px;
+ margin-right: 20px;
+ flex-direction: row;
+}
+ img{
+    max-width: 100%;
+    width: 150px;
+    max-height: auto;
+    height: 200px;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    display: block;
+
+}
+p{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.about p{
+    padding: 5px 20px;
+}
+.second-abt{
+    padding: 10px 5px;
+margin-bottom: 20px;
+padding: 10px 20px;
+ margin: auto;
+ 
+}
+ .second-abt p{
+    padding: 5px 20px;
+} 
+.about2{
+    padding: 10px 5px;
+margin-bottom: 20px;
+padding: 10px 20px;
+ margin: auto;
+}
+.about2 p{
+    padding: 5px 20px;
+
+}
+/* .second{
+    margin-bottom: 25px;
+}
+.second p{
+    margin-bottom: 20px;
+} */
+
+
+footer{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: grey;
+}
+@media (max-width: 768px){
+    header{
+        font-size: 1.5em;
+    }
+    
+    .about p{
+        flex-direction: column;
+        
+
+    }
+    
+   .about img{
+        width: 100px;
+        height: 50px;
+
+    }
+    
+}
+@media (max-width:768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        
+            font-size: 0.9rem;
+    
+    }
+    .about{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    
+    img{
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px; 
+        display: block;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .second-abt{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 35px;
+        margin-bottom: 15px;
+
+    }
+    
+}
+    
+
